@@ -1,0 +1,83 @@
+
+body{
+    background: rgb(123,251,197);
+background: linear-gradient(0deg, rgba(123,251,197,1) 9%, rgba(45,253,109,1) 100%);
+background-repeat: no-repeat;
+
+}
+.container{
+    overflow: hidden;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+.main{
+    overflow: hidden !important;
+    margin-top: 100px;
+    margin-bottom: 37vh;
+    /* background-color: rgb(255, 204, 0); */
+    border-radius: 20px;
+    padding: 10px;
+}
+.main h1{
+    letter-spacing: 0.1rem;
+    color: white;
+    font-size: 50px;
+    text-shadow: 4px -3px 3px rgba(0,0,0,0.79);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.stopWatch{
+    /* background-color: rgb(93, 185, 98); */
+    padding: 10px;
+}
+.displayTimer{
+font-size: 50px;
+font-weight: 700;
+color: rgb(255, 255, 255);
+}
+.btn{
+    /* background-color: blueviolet; */
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+
+}
+#startBtn{
+background-color: rgb(155, 237, 31);
+color: white;
+font-size: 18px;
+font-weight: 600;
+}
+#startBtn:active{
+    background-color:rgb(118, 178, 27) ;
+    border: 2px solid black;
+}
+#stopBtn{
+background-color: red;
+color: white;
+font-size: 18px;
+font-weight: 600;
+}
+#stopBtn:active{
+    background-color: rgb(188, 19, 19);
+    border: 2px solid black;
+}
+#resetBtn{
+    
+background-color: blue;
+color: white;
+font-size: 18px;
+font-weight: 600;
+}
+#resetBtn:active{
+    background-color: rgb(4, 4, 177);
+    border: 2px solid black;
+}
+.box{
+    /* margin-left: 300px; */
+    padding: 10px;
+    background-color: rgb(238, 224, 25);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* width: 500px; */
+    border-radius: 40px;
+}
